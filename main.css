@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.col-left {
+    width: 40%;
+    background-color: #3db498;
+    
+}
+
+.col-left__logo{
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.col-left__box-text {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.col-left__main-text {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.col-left__sub-text {
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.col-left__btn-sign {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 50px;
+    min-width: 200px;
+    min-height: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.col-right {
+    width: 60%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.col-right__header-text {
+    color: #3db498;
+    font-size: 50px;
+}
+
+.col-right__contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.col-right__text {
+    color: #888;
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.contact__icon {
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+
+.col-right__text {
+    margin-top: 30px;
+}
+
+.col-right__inp-log {
+    margin-top: 5px;
+}
+
+.inp-log-style {
+    box-sizing: border-box;
+    background-color: #f4f8f7;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    height: 60px;
+    display: inline-block;
+    width: 500px;
+}
+
+.size-icon {
+    font-size: 20px;
+}
+
+.col-right__style-btn {
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.col-right__btn {
+    background-color: #3db498;
+    border: 1px solid #3db498;
+    color: white;
+    border-radius: 50px;
+    min-width: 200px;
+    min-height: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
